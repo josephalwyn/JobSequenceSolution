@@ -64,18 +64,20 @@ The given problem can be resolved using topological sorting technique.
 1. Run the application
 2. Enter the number of job structure
 3. Enter each job and their depedency line by line
-Sample input:
+
+# Sample input:
 Enter number of job structure
 6
+
 Enter 6 job structure each in 1 line
 (Ex: if job 'a' depends on job 'b' then enter as a=>b. if job 'a' doesn't depends on any job simply enter a=>)
 
-a =>
-b => c
-c => f
-d => a
-e => b
-f =>
+ a =>
+ b => c
+ c => f
+ d => a
+ e => b
+ f =>
 
-Sample Output:
+# Sample Output:
 a,f,d,c,b,e
