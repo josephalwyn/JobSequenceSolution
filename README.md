@@ -69,6 +69,7 @@ Enter number of job structure
 6
 Enter 6 job structure each in 1 line
 (Ex: if job 'a' depends on job 'b' then enter as a=>b. if job 'a' doesn't depends on any job simply enter a=>)
+
 a =>
 b => c
 c => f
